@@ -1,0 +1,83 @@
+.home-banner {
+  display: flex;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 4px;
+}
+
+.home-banner-column {
+  display: flex;
+  width: 100%;
+  img {
+    width: 100%;
+  }
+}
+
+.column-left img {
+  display: flex;
+  width: 100%;
+}
+
+.column-right img {
+  display: flex;
+  width: 100%;
+}
+
+.home-banner .home-banner-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-banner-title h1 {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 90px;
+  font-weight: 600;
+}
+
+.home-banner-title h2 {
+  font-family: "Poppins";
+  color: #fff;
+  font-size: 38px;
+  font-weight: 600;
+  span {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 300;
+  }
+}
+
+.home-banner-btn {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  button {
+    background: white;
+    border: none;
+    border-radius: 5px;
+    padding: 17px;
+  }
+}
+
+.home-banner-btn button {
+  background: white;
+  color: #000;
+  padding: 17px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.home-banner-btn button:hover {
+  background-color: #007bff;
+  color: white;
+}

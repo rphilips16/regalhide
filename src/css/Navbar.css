@@ -1,0 +1,28 @@
+.navbar-container {
+  display: flex;
+
+  ul {
+    list-style-type: none;
+    align-items: stretch;
+    gap: 20px;
+    li {
+      padding: 15px;
+      display: inline-block;
+    }
+  }
+}
+
+.navbar-categories {
+  width: 25%;
+}
+
+.navbar-title {
+  width: 50%;
+  h1 {
+    text-align: center;
+  }
+}
+
+.navbar-buttons {
+  width: 25%;
+}

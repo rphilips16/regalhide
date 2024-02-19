@@ -1,0 +1,40 @@
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.women-container {
+  display: flex;
+  width: 100%;
+  padding: 50px 0 30px 0;
+}
+
+.women-container-col-1 {
+  width: 25%;
+}
+
+.women-container-col-2 {
+  width: 50%;
+  p {
+    text-align: center;
+  }
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.women-container-col-3 {
+  width: 25%;
+}
